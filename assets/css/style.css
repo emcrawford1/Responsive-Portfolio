@@ -1,0 +1,360 @@
+
+/* All styles (starting with Index.html file */
+
+li{
+    display: inline;
+}
+
+header{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 1.5px;
+    height: 60px;
+    padding: 0%;
+    margin-bottom: 4%;
+    overflow: hidden;
+}
+
+.name{
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    opacity: 0.95;
+    text-rendering: optimizeLegibility; 
+    text-rendering: geometricPrecision;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    margin: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+ 
+}
+
+body{
+    background-image: url("../images/background5.png");
+}
+
+p{
+    margin-top: 0%;
+    margin-bottom:3%;
+
+
+}
+
+.imageContainer{
+    float:left;
+    margin-top: 1%;
+    margin-right:2%;
+    margin-bottom: 1%;
+    margin-left: 0%;
+
+}
+.mainContainer{
+    width: 910px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-bottom: 5%;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto;
+    height: 595px;
+ 
+ 
+}
+
+.headerMargin{
+    width: 960px;
+    height: 60px;
+    margin: 0 auto;
+    
+    float: clear;
+    overflow: auto;
+}
+.navBar{
+    color:#777777;
+    float: right;
+    height: 38px;
+    padding-top: 22px;
+    padding-right: 0px;
+    margin-right:0px;
+    
+
+}
+
+.about{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 1px;
+    padding-right: 5px;
+    text-decoration: none;
+   
+}
+
+.portfolio{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid;
+    border-right-color: #dddddd;
+    border-right-width: 1px;
+    padding-right: 3px;
+    margin-left: 0px;
+    text-decoration: none;
+   
+
+}
+
+.contact{
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 0px;
+    text-decoration: none;
+
+}
+
+.mainHeader{
+    color: #4aaaa5;
+    font-size: 30px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 3px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    
+}
+
+.pFormat{
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 1.9;
+}
+
+footer{
+    background-color:#666666;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    margin-right:0px;
+    margin-left: 0px;
+    color: #dbd6d6;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.copyright{
+    position: relative;
+    right: -48%;
+    top: 60%;
+    font-size: 12px;
+}
+
+
+/* Styles specific to the portfolio/gallery page */
+
+span{
+    float: left;
+    width: 300px;
+    height:300px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    margin-right: 25px;
+    margin-bottom: 12.5px;
+    margin-top: 12.5px;
+    margin-left: 0px;
+    
+}
+
+.galleryLabels{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100%;
+    height: 35px;
+    position: absolute;
+    top: 75%;
+    text-align: center;
+    
+}
+
+.mainContainerPortfolio{
+
+    height: 600px;
+    overflow: scroll;
+}
+
+.galleryImages{
+    position: absolute;
+}
+
+
+/* Styling for contact form */
+
+label{
+    float: left;
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+#fname{
+    width: 100%;
+    box-sizing: border-box;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    height: 15px;
+    margin-bottom: 2%;
+    height: 30px;
+}
+
+#email{
+    width: 100%;
+    box-sizing: border-box;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    height: 30px;
+}
+
+#subject{
+    width: 100%;
+    box-sizing: border-box;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 2%;
+    height: 150px;
+}
+
+#submitButton{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-style: none;
+    height: 40px;
+    width: 110px;
+    font-size: 15px;
+}
+
+.mainContainerContact{
+    width: 910px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-bottom: 5%;
+    border: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    overflow: auto;
+   
+
+}
+
+
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 980px){
+    .mainContainer{
+        margin: 0px;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 600px;
+        height: auto;
+
+    }
+    .headerMargin{
+
+        margin-left: 5%;
+        margin-right:5%;
+        width: 878px;
+    }
+
+
+    .mainContainerContact{
+        margin: 0px;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 600px;
+        height: auto;
+    }
+}
+
+
+@media screen and (max-width: 926px){
+
+    .mainContainer{
+        width: auto;
+        margin-right: 5%;
+        margin-bottom: 25%;
+    }
+
+    .headerMargin{
+        width: auto;
+        margin-right: 5%;
+    }
+    .mainContainerContact{
+        width: auto;
+        margin-right: 5%;
+        margin-bottom: 25%;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+
+
+    .headerMargin{
+        margin-right: 0px;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    header{
+        height: 120px;
+        overflow: visible;
+    }
+    .name{
+        width: 100%;
+        float: unset;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .navBar{
+        float: unset;
+    }
+
+    .nameCenter{
+        text-align: center;
+    }
+
+    ul{
+        text-align: center;
+    }
+
+  
+}
+
