@@ -167,8 +167,8 @@ footer{
 
 span{
     float: left;
-    width: 300px;
-    height:300px;
+    width: 270px;
+    height:270px;
     margin-left: 15px;
     margin-bottom: 15px;
     position: relative;
@@ -358,3 +358,13 @@ label{
   
 }
 
+@media screen and (max-width: 420px){
+    p{
+        clear:both;
+    }
+    
+    .imageContainer{
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
